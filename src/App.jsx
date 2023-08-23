@@ -5,24 +5,24 @@ import { Navbar, Hero, About, Skills, Projects, Footer } from './containers'
 
 function App() {
   return (
-    <div className="bg__main w-full overflow-hidden">
-        <div className={`md:mx-[220px]`}>
+    <div className="w-full overflow-hidden">
+        <div className="xl:mx-[180px] md:mx-[60px] md:my-6 lg:my-12 section_margin section_pad">
             <Navbar />
       </div>
-        <div className='mx-[220px]'>
+        <div className='xl:mx-[180px] md:mx-[60px] py-16 section_margin section_pad'>
           <Hero />
         </div>
-        <div className='bg-dullPry'>
+        <div className='bg-dullPry section_pad py-16'>
           <About />
         </div>
 
         <Skills />
 
-        <div className='bg-dullPry py-16'>
+        <div className='bg-dullPry py-16 section_pad'>
 
           <Projects />
         </div>
-        <div className='py-16'>
+        <div className='py-16 section_pad xl:mx-[180px] md:mx-[60px]'>
           <Footer />
         </div>
       

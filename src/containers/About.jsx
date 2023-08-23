@@ -3,20 +3,17 @@ import { me } from '../assets'
 
 const About = () => {
   return (
-    <div className='mx-[220px] py-16'>
-      <div className='absolute'>
+    <div className='xl:mx-[180px] md:mx-[60px] section_margin'>
+      <div className='absolute section_heading'>
         <h2 className="text-center text-white text-[44px] font-bold">About Me</h2>
         <div className='bg-secondary h-[8px] w-[60px] mt-0'></div>
       </div>
-      <div className='flex flex-1 items-center w-full'>
-        <img src={me} alt='me' className='w-[300px] ml-20 mt-10 mr-[80px]'/>
-        <p className='w-[550px] text-dullWhite leading-[28px]'>Hey there! 👋 I'm Aladi Ifeanyi, a frontend developer in Lagos with a passion for creating engaging websites that blend design and functionality. My journey in web development began with a fascination for technology, and I've since honed my skills in crafting modern and user-friendly interfaces.
 
-When I'm not coding, you'll find me immersed in a game of chess or exploring virtual worlds through video games. I also love unwinding with evening walks and maintaining an active lifestyle through regular workouts.
-
-<br/><br/>I'm a firm believer in open-source collaboration and the power of sharing knowledge. Let's connect and work together to make the web a better place!
-
-Get in touch and let's chat about all things web and beyond.
+      <div className='flex flex-1 items-center w-full about_content'>
+        <img src={me} alt='me' className='w-[300px] lg:ml-20 lg:mt-10 md:mt-24 lg:mr-[80px] md:mr-[30px]'/>
+        <p className='lg:w-[550px] md:w-[670px] text-dullWhite leading-[28px] md:mt-20 about_text'>Hey there! 👋 I'm Aladi Ifeanyi, a <b>frontend developer</b> in Lagos with a passion for creating engaging websites that blend <b>design and functionality</b>. 
+        My journey in web development began with a fascination for technology, and I've since honed my skills in crafting modern and <b>user-friendly interfaces</b>.I'm a firm believer in open-source collaboration and the power of sharing <b>knowledge</b>.
+        Let's <b>connect</b> and work together to make the web a better place! <b>Get in touch</b> and let's chat about all things web and beyond.
 
 </p>
 

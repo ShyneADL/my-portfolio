@@ -2,7 +2,7 @@ import React from 'react';
 
 const Footer = () => {
   return (
-    <div className='mx-[220px]'>
+    <div>
 
       <div className='flex flex-1 justify-center items-center w-full'>
         <form className='flex flex-1 flex-col max-w-[600px] w-[90%] '>

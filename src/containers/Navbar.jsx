@@ -7,10 +7,10 @@ const Navbar = () => {
   const [toggle, setToggle] = useState(false);
 
   return (
-    <div className='mb-6 mt-12'>
-        <nav className={`w-full flex flex-1 justify-between items-center`}>
-            <div className='flex justify-start w-60px'>
-                <img className='w-[60px] h-[60px]' src={logo} alt='logo' />
+    <div>
+        <nav className={`flex flex-1 justify-between items-center`}>
+            <div className='flex justify-start max-w-60px'>
+                <img className='w-[60px] logo_w' src={logo} alt='logo' />
             </div>
                 <ul className='flex-1 sm:flex hidden justify-end items-center list-none '>
                     <li className='mr-5 cursor-pointer text-[18px] text-[#fff] font-medium' id='home'>Home</li>
