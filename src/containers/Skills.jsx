@@ -3,14 +3,13 @@ import { git, github2, react, javascript, html, css, bash, tailwind, materialui,
 
 const Skills = () => {
   return (
-    <div className='xl:mx-[180px] md:mx-[60px] mx-[16px] md:py-[36px] py-[16px]'>
+    <div className='xl:mx-[180px] md:mx-[60px] mx-[16px] md:py-[36px] py-[30px]'>
       <div className='relative flex flex-col md:items-start justify-center items-center'>
         <h2 className="text-center text-white md:text-[44px] text-[32px] font-bold leading-none">My Skills</h2>
         <div className='bg-secondary h-[8px] w-[60px] mt-2'></div>
       </div>
 
-      <div className='flex flex-1 justify-center items-center  lg:mt-10 mt-5'>
-
+      <div className='flex flex-1 justify-center items-center  lg:mt-10 mt-8'>
         <div className='skills-grid md:w-[800px] w-[300px]'>
           <img src={html} alt="html"  />
           <img src={css} alt="css"  />

@@ -101,14 +101,10 @@ body {
     place-items: start;
 }
 
-
 .truncate_text {
+  max-height: 148px;
   overflow: hidden;
-  -webkit-line-clamp: 4;
-  display: -webkit-box;
-  -webkit-box-orient: vertical;
 }
-
 
 
 
