@@ -96,12 +96,17 @@ body {
     grid-template-columns: 1fr 1fr;
     
     gap: 50px;
+    column-gap: 0px;
     height: 100%;
     place-items: start;
 }
 
-.hero_img {
-  opacity: 100%;
+
+.truncate_text {
+  overflow: hidden;
+  -webkit-line-clamp: 4;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
 }
 
 

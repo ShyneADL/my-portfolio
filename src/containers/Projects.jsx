@@ -4,10 +4,13 @@ import ProjectTab from '../components/ProjectTab';
 
 const Projects = () => {
   return (
-    <div className='xl:mx-[180px] md:mx-[60px] mx-[16px]'>
-        <h2 className='text-white text-[44px] font-bold w-fit'>Projects</h2>
-        <div className='bg-secondary h-[8px] w-[60px] mt-1'></div>
-        <div className='flex flex-1 justify-center mt-16'>
+    <div className='xl:mx-[180px] md:mx-[60px] mx-[16px] md:py-[36px] py-[16px]'>
+      <div className='relative flex flex-col md:items-start justify-center items-center'>
+        <h2 className='text-center text-white md:text-[44px] text-[32px] font-bold leading-none'>Projects</h2>
+        <div className='bg-secondary h-[8px] w-[60px] mt-2'></div>
+      </div>
+
+        <div className='flex flex-1 justify-center mt-16 w-full'>
           <div className='project-grid'>
               <ProjectTab img={ww} alt="wealthwise" heading="WealthWise" demo="https://wealthwise-gold.vercel.app/" ghub="https://github.com/ShyneADL/wealthwise" text="WealthWise is a comprehensive stocks investment app crafted using React and Tailwind. This app empowers users to make informed investment decisions by providing real-time data and insights about stocks listed on the NSE." />
               <ProjectTab img={jm} alt="JM - Photography Portfolio" heading="JM" demo="https://photo-portfolio-inky-two.vercel.app/" ghub="https://github.com/ShyneADL/photo-portfolio" text="This is a captivating and visually immersive photographer portfolio website built using React and Tailwind. It's designed to showcase the photography skills, creative vision, and artistic journey of the client." />
