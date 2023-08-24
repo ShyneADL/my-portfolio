@@ -94,39 +94,6 @@ body {
 .hero_img {
   opacity: 100%;
 }
-@media screen and (max-width: 550px) {
-  .logo_w {
-    width: 45px;
-  }
-  .mob_hidden {
-    display: none;
-  }
-
-  /* About Me Section */
-  .section_heading {
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
-
-  .section_heading h2 {
-    font-size: 36px;
-  }
-
-  .about_content {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-  }
-
-  .about_text {
-    width: 350px;
-    text-align: center;
-    margin-top: 20px;
-  }
-}
 
 
 

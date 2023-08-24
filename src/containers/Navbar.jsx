@@ -10,7 +10,7 @@ const Navbar = () => {
     <div>
         <nav className={`flex flex-1 justify-between items-center`}>
             <div className='flex justify-start max-w-60px'>
-                <img className='w-[60px] logo_w' src={logo} alt='logo' />
+                <img className='md:w-[60px] w-[45px]' src={logo} alt='logo' />
             </div>
                 <ul className='flex-1 sm:flex hidden justify-end items-center list-none '>
                     <li className='mr-5 cursor-pointer text-[18px] text-[#fff] font-medium' id='home'>Home</li>
