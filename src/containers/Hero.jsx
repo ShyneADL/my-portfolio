@@ -7,7 +7,7 @@ const Hero = () => {
         <div className='flex flex-1 md:flex-row flex-col justify-between md:items-start items-center relative'>
           <div className='md:absolute'>
             <p className='xl:text-[24px] text-white md:text-left text-center'>Hello, I'm</p>
-            <h1 className='font-montAlt text-secondary font-bold xl:text-[82px] lg:text-[64px] md:text-[32px] text-[30px] z-10 lg:leading-[74px] md:leading-[36px]'>Ifeanyi<br className='md:flex hidden'/> Aladi.{" "}
+            <h1 className='font-montAlt text-secondary font-bold md:text-left text-center xl:text-[82px] lg:text-[64px] md:text-[32px] text-[30px] z-10 lg:leading-[74px] md:leading-[36px]'>Ifeanyi<br className='md:flex hidden'/> Aladi.{" "}
             </h1>
             <div className='bg-secondary lg:h-[8px] md:h-[6px] w-[60px] mt-3]'></div>
             <div className='md:flex-1 w-[200px] lg:mt-[150px] md:mt-[100px] md:flex xl:flex-row md:flex-col md:items-start items-center hidden'>
