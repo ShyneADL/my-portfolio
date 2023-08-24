@@ -5,8 +5,8 @@ const About = () => {
   return (
     <div className='xl:mx-[180px] md:mx-[60px] mx-[16px]'>
       <div className='relative flex flex-col md:items-start justify-center items-center'>
-        <h2 className="text-center text-white md:text-[44px] text-[36px] font-bold leading-none">About Me</h2>
-        <div className='bg-secondary h-[8px] w-[60px] mt-1'></div>
+        <h2 className="text-center text-white md:text-[44px] text-[32px] font-bold leading-none">About Me</h2>
+        <div className='bg-secondary h-[8px] w-[60px] mt-2'></div>
       </div>
 
       <div className='flex flex-1 items-center w-full md:flex-row flex-col md:justify-start justify-center'>
