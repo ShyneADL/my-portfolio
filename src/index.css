@@ -95,28 +95,6 @@ body {
   opacity: 100%;
 }
 @media screen and (max-width: 550px) {
-  .section_margin {
-    margin: 0 30px;
-  }
-  .section_pad {
-    padding: 36px 0;
-  }
-  .hero_img{
-    opacity: 0%;
-  }
-  .hero_text {
-    font-size: 30px;
-  }
-  .hero_head {
-    font-size: 22px;
-    width: 250px;
-  }
-  .hero_text_width {
-    width: 1600px;
-  }
-  .intro {
-
-  }
   .logo_w {
     width: 45px;
   }

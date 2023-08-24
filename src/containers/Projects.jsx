@@ -4,7 +4,7 @@ import ProjectTab from '../components/ProjectTab';
 
 const Projects = () => {
   return (
-    <div className='xl:mx-[180px] md:mx-[60px] section_margin'>
+    <div className='xl:mx-[180px] md:mx-[60px] mx-[16px]'>
         <h2 className='text-white text-[44px] font-bold w-fit'>Projects</h2>
         <div className='bg-secondary h-[8px] w-[60px] mt-1'></div>
         <div className='flex flex-1 justify-center mt-16'>

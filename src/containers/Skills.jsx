@@ -3,7 +3,7 @@ import { git, github2, react, javascript, html, css, bash, tailwind, materialui,
 
 const Skills = () => {
   return (
-    <div className='py-16 xl:mx-[20px] md:mx-[60px] section_margin section_pad'>
+    <div className='xl:mx-[20px] md:mx-[60px] mx-[16px] py-[36px]'>
 
         <div className='relative w-fit'>
             <h2 className='text-[44px] font-bold text-white'>My Skills</h2>

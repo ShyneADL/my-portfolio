@@ -3,7 +3,7 @@ import { me } from '../assets'
 
 const About = () => {
   return (
-    <div className='xl:mx-[180px] md:mx-[60px] section_margin'>
+    <div className='xl:mx-[180px] md:mx-[60px] mx-[16px]'>
       <div className='absolute section_heading'>
         <h2 className="text-center text-white text-[44px] font-bold">About Me</h2>
         <div className='bg-secondary h-[8px] w-[60px] mt-0'></div>
