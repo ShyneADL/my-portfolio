@@ -101,12 +101,3 @@ body {
     place-items: start;
 }
 
-html {
-  scroll-snap-type: y mandatory;
-}
-
-section {
-  scroll-snap-align: start;
-}
-
-
