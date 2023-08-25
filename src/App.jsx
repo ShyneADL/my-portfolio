@@ -1,32 +1,37 @@
 import React from 'react'
 import './App.css'
-import { Navbar, Hero, About, Skills, Projects, Footer } from './containers'
-
+import { Navbar, Hero, About, Skills, Projects, Footer } from './containers';
+import { useRef } from "react";
 
 function App() {
+  const ref = useRef(null);
   return (
-    <div className="w-full overflow-hidden">
-        <div className="xl:mx-[180px] md:mx-[60px] md:my-6 lg:my-12 mx-[16px] py-[30px]">
-            <Navbar />
+    <div ref={ref} className="w-full scroll_snap">
+      <section className='xl:mx-[180px] md:mx-[60px] md:my-6 lg:my-12 mx-[16px] py-[30px]my-[24px]'>
+              <Navbar />
+        </section>
+
+          <section className='xl:mx-[180px] md:mx-[60px] mx-[16px] py-[30px] md:py-[36px] my-[24px]'>
+            <Hero />
+          </section>
+          
+          <section className='bg-dullPry py-[30px] md:py-[36px] my-[24px]'>
+            <About />
+          </section>
+          <section className='xl:mx-[180px] md:mx-[60px] mx-[16px] md:my-[40px] my-[24px] md:py-[36px] py-[30px]'>
+            <Skills />
+          </section>
+
+          <section className='bg-dullPry py-[30px] md:py-[36px] my-[24px]'>
+
+            <Projects />
+          </section>
+
+          <section className='py-[30px] md:py-[36px] mx-[30px] xl:mx-[180px] md:mx-[60px] my-[24px]'>
+            <Footer />
+          </section>
+        
       </div>
-        <div className='xl:mx-[180px] md:mx-[60px] mx-[16px] py-[30px] md:py-[36px]'>
-          <Hero />
-        </div>
-        <div className='bg-dullPry py-[30px] md:py-[36px]'>
-          <About />
-        </div>
-
-        <Skills />
-
-        <div className='bg-dullPry py-[30px] md:py-[36px]'>
-
-          <Projects />
-        </div>
-        <div className='py-[30px] md:py-[36px] mx-[30px] xl:mx-[180px] md:mx-[60px]'>
-          <Footer />
-        </div>
-      
-    </div>
   )
 }
 

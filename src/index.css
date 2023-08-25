@@ -101,10 +101,12 @@ body {
     place-items: start;
 }
 
-.truncate_text {
-  max-height: 148px;
-  overflow: hidden;
+html {
+  scroll-snap-type: y mandatory;
 }
 
+section {
+  scroll-snap-align: start;
+}
 
 

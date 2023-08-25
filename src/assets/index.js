@@ -20,6 +20,7 @@ import bash from './bash.svg';
 import nft from './NFTcube.png';
 import jm from './Jamal.png';
 import ww from './WealthWise.png';
+import yemar from './Yemar.jpg';
 
 
 export {
@@ -45,5 +46,5 @@ export {
     nft,
     jm,
     ww,
-    
+    yemar,
 }
