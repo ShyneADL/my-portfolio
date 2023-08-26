@@ -21,6 +21,7 @@ import nft from './NFTcube.png';
 import jm from './Jamal.png';
 import ww from './WealthWise.png';
 import yemar from './Yemar.jpg';
+import myself from './myself.jpg';
 
 
 export {
@@ -47,4 +48,5 @@ export {
     jm,
     ww,
     yemar,
+    myself,
 }

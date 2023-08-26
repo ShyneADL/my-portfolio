@@ -1,4 +1,4 @@
-import React, {useRef, useEffect, useState} from 'react'
+import React from 'react'
 
 const ProjectTab = ({img, alt, heading, text, demo, ghub}) => {
   const style = {
