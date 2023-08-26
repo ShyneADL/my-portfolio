@@ -34,7 +34,7 @@ const Hero = () => {
   }, [inView]);
 
   return (
-    <div ref={ref}>
+    <div ref={ref} id='home'>
         <motion.div 
         animate={animation}
         

@@ -3,7 +3,7 @@ import { git, github2, react, javascript, html, css, bash, tailwind, materialui,
 
 const Skills = () => {
   return (
-    <div>
+    <div id='skills'>
       <div className='relative flex flex-col md:items-start justify-center items-center'>
         <h2 className="text-center text-white md:text-[44px] text-[32px] font-bold leading-none">My Skills</h2>
         <div className='bg-secondary h-[8px] w-[60px] mt-2'></div>

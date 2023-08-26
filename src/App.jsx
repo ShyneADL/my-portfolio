@@ -18,6 +18,7 @@ function App() {
           <section className='bg-dullPry py-[30px] md:py-[36px] my-[24px]'>
             <About />
           </section>
+
           <section className='xl:mx-[180px] md:mx-[60px] mx-[16px] md:my-[40px] my-[24px] md:py-[36px] py-[30px]'>
             <Skills />
           </section>

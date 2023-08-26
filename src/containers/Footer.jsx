@@ -5,7 +5,7 @@ const Footer = () => {
   return (
     <div>
 
-      <div className='flex flex-1 justify-center items-center w-full'>
+      <div className='flex flex-1 justify-center items-center w-full' id='contact'>
         <form className='flex flex-1 flex-col max-w-[600px] w-[90%] '>
           <h3 className='text-[32px] font-medium  text-white'>Get In Touch</h3>
           <input type="text" id="name" placeholder="Name" className='my-2 p-2 rounded-sm' required />
