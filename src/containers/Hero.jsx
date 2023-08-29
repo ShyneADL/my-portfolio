@@ -16,6 +16,21 @@ const Hero = () => {
     deleteSpeed: 1.5,
   });
 
+  //Have the effect run once on page load
+  useEffect(() => {
+    if(inView) {
+      animation.start({
+        x:0,
+        delay: 1,
+        transition: {
+          type: 'tween',
+          duration: 0.7,
+        }
+      });
+    }});
+
+    //Have the effect run inview but only once
+
   useEffect(() => {
     if(inView) {
       animation.start({
@@ -27,11 +42,11 @@ const Hero = () => {
         }
       });
     }
-    if(!inView) {
+    else {
       animation.start({x:'100vw'})
     }
     console.log("Use effect hook, inview", inView)
-  }, [inView]);
+  },[]);
 
   return (
     <div ref={ref} id='home'>
