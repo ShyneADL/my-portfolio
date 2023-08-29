@@ -7,7 +7,7 @@ const Navbar = () => {
   const [toggle, setToggle] = useState(false);
 
   return (
-    <div>
+    <div className='sticky'>
         <nav className={`flex flex-1 justify-between items-center`}>
             <div className='flex justify-start max-w-60px'>
                 <img className='md:w-[60px] w-[45px]' src={logo} alt='logo' />

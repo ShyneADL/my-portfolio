@@ -1,5 +1,5 @@
 import React from 'react';
-import { linkedin,github, twitter, me } from '../assets';
+import { linkedin,github, twitter } from '../assets';
 import { motion, useAnimation } from 'framer-motion';
 import { useInView } from 'react-intersection-observer';
 import { useEffect } from 'react';
@@ -45,16 +45,16 @@ const Hero = () => {
             <h1 className='font-montAlt text-secondary font-bold md:text-left text-center xl:text-[82px] lg:text-[64px] md:text-[32px] text-[30px] z-10 lg:leading-[74px] md:leading-[36px]'>Ifeanyi<br className='md:flex hidden'/> Aladi.{" "}
             </h1>
             <div className='bg-secondary lg:h-[8px] md:h-[6px] w-[60px] mt-2'></div>
-            <div className='md:flex-1 w-[200px] lg:mt-[150px] md:mt-[100px] md:flex xl:flex-row md:flex-col md:items-start items-center hidden'>
-              <a href='https://github.com/ShyneADL' target='_blank' className='xl:mr-[25px]'><img src={github} className='w-[30px]' alt="github" /></a>
-              <a href='https://www.linkedin.com/in/ifeanyi-aladi-61675b1ba' target='_blank' className=' xl:mr-[25px] md:mt-4 xl:mt-0'><img src={linkedin} className='w-[30px]' alt="linkedin" /></a>
-              <a href='https://twitter.com/ShyneADL?t=51t37TEiqPP30rAyqvQx8Q&s=09' target='_blank' className='xl:mr-[25px] md:mt-4 xl:mt-0'><img src={twitter} className='w-[30px]' alt="twitter" /></a>
+            <div className='md:flex md:flex-1 w-[200px] lg:mt-[50px] md:mt-[40px] items-center hidden'>
+              <a href='https://github.com/ShyneADL' target='_blank' className='md:mr-[25px]'><img src={github} className='w-[25px]' alt="github" /></a>
+              <a href='https://www.linkedin.com/in/ifeanyi-aladi-61675b1ba' target='_blank' className=' md:mr-[25px]'><img src={linkedin} className='w-[25px]' alt="linkedin" /></a>
+              <a href='https://twitter.com/ShyneADL?t=51t37TEiqPP30rAyqvQx8Q&s=09' target='_blank' className='md:mr-[25px]'><img src={twitter} className='w-[25px]' alt="twitter" /></a>
             </div>
           </div>
 
 
           <div className='xl:ml-[200px] lg:ml-[120px] md:ml-[70px] xl:mr-[50px] max-w-[600px]'>
-            <img src={me} className='xl:w-[100%] lg:w-[80%] md:flex hidden'/>
+            <div className='xl:w-[250px] md:w-[200px] md:flex hidden'></div>
           </div>
 
           <div className='xl:w-[450px] lg:w-[390px] md:w-[1200px] lg:ml-0 md:ml-4 md:static '>

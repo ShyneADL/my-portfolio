@@ -1,7 +1,6 @@
 import logo from './logo.png';
 import close from './close.svg';
 import menu from './menu.svg';
-import me from './me.jpg';
 import github from './github.svg';
 import linkedin from './linkedin.svg';
 import twitter from './twitter.svg';
@@ -28,7 +27,6 @@ export {
     logo,
     close,
     menu,
-    me,
     github,
     linkedin,
     twitter,
