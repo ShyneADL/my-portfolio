@@ -1,5 +1,5 @@
 import React from 'react';
-import { github, linkedin, logo, twitter } from '../assets';
+import { github, linkedin, logo, twitter, hashnode} from '../assets';
 
 const Footer = () => {
   return (
@@ -23,6 +23,7 @@ const Footer = () => {
           <div className='flex flex-1 w-fit items-center justify-center'>
               <a href='https://github.com/ShyneADL' target='_blank'><img src={github} className='w-[25px] mr-[20px]' alt="github" /></a>
               <a href='https://www.linkedin.com/in/ifeanyi-aladi-61675b1ba' target='_blank'><img src={linkedin} className='w-[25px] mr-[20px]' alt="linkedin" /></a>
+              <a href='https://ifeanyi-aladi.hashnode.dev/' target='_blank'><img src={hashnode} className='w-[25px] mr-[20px]' alt="hashnode" /></a>
               <a href='https://twitter.com/ShyneADL?t=51t37TEiqPP30rAyqvQx8Q&s=09' target='_blank'><img src={twitter} className='w-[25px]' alt="twitter" /></a>
           </div>
         </div>

@@ -21,9 +21,11 @@ import jm from './Jamal.png';
 import ww from './WealthWise.png';
 import yemar from './Yemar.jpg';
 import myself from './myself.jpg';
+import  hashnode from './hashnode.svg'
 
 
 export {
+     hashnode,
     logo,
     close,
     menu,

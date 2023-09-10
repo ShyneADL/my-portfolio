@@ -1,5 +1,5 @@
 import React from 'react';
-import { linkedin,github, twitter } from '../assets';
+import { linkedin,github, twitter, hashnode } from '../assets';
 import { motion, useAnimation } from 'framer-motion';
 import { useInView } from 'react-intersection-observer';
 import { useEffect } from 'react';
@@ -63,6 +63,7 @@ const Hero = () => {
             <div className='md:flex md:flex-1 w-[200px] lg:mt-[50px] md:mt-[40px] items-center hidden'>
               <a href='https://github.com/ShyneADL' target='_blank' className='md:mr-[25px]'><img src={github} className='w-[25px]' alt="github" /></a>
               <a href='https://www.linkedin.com/in/ifeanyi-aladi-61675b1ba' target='_blank' className=' md:mr-[25px]'><img src={linkedin} className='w-[25px]' alt="linkedin" /></a>
+              <a href='https://ifeanyi-aladi.hashnode.dev/' target='_blank' className=' md:mr-[25px]'><img src={hashnode} className='w-[25px]' alt="hashnode" /></a>
               <a href='https://twitter.com/ShyneADL?t=51t37TEiqPP30rAyqvQx8Q&s=09' target='_blank' className='md:mr-[25px]'><img src={twitter} className='w-[25px]' alt="twitter" /></a>
             </div>
           </div>
@@ -83,7 +84,8 @@ const Hero = () => {
           <div className='md:hidden flex flex-1 w-[25px] items-center justify-center'>
               <a href='https://github.com/ShyneADL' target='_blank'><img src={github} className='w-[25px] mr-[20px]' alt="github" /></a>
               <a href='https://www.linkedin.com/in/ifeanyi-aladi-61675b1ba' target='_blank'><img src={linkedin} className='w-[25px] mr-[20px]' alt="linkedin" /></a>
-              <a href='https://twitter.com/ShyneADL?t=51t37TEiqPP30rAyqvQx8Q&s=09' target='_blank'><img src={twitter} className='w-[25px] mr-[20px]' alt="twitter" /></a>
+              <a href='https://ifeanyi-aladi.hashnode.dev/' target='_blank'><img src={hashnode} className='w-[25px] mr-[20px]' alt="hashnode" /></a>
+              <a href='https://twitter.com/ShyneADL?t=51t37TEiqPP30rAyqvQx8Q&s=09' target='_blank'><img src={twitter} className='w-[25px]' alt="twitter" /></a>
           </div>
         </div>
     </div>
