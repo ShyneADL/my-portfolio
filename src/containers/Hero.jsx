@@ -53,8 +53,8 @@ const Hero = () => {
         <motion.div 
         animate={animation}
         
-        className='flex flex-1 md:flex-row flex-col justify-between md:items-start items-center relative'>
-          <div className='md:absolute'
+        className='flex flex-1 md:flex-row flex-col justify-between md:items-start items-center z-0'>
+          <div
           >
             <p className='xl:text-[24px] text-white md:text-left text-center'>Hello, I'm</p>
             <h1 className='font-montAlt text-secondary font-bold md:text-left text-center xl:text-[82px] lg:text-[64px] md:text-[32px] text-[30px] z-10 lg:leading-[74px] md:leading-[36px]'>Ifeanyi<br className='md:flex hidden'/> Aladi.{" "}
