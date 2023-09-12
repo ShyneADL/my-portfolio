@@ -29,7 +29,6 @@ const Hero = () => {
       });
     }});
 
-    //Have the effect run inview but only once
 
   useEffect(() => {
     if(inView) {
