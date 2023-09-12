@@ -25,7 +25,7 @@ import  hashnode from './hashnode.svg'
 
 
 export {
-     hashnode,
+    hashnode,
     logo,
     close,
     menu,
