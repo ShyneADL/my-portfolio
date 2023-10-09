@@ -1,9 +1,47 @@
 import React from 'react'
+import { motion, useAnimation } from 'framer-motion';
+import { useInView } from 'react-intersection-observer';
+import { useEffect } from 'react';
 import { myself } from '../assets'
 
 const About = () => {
+  const {ref, inView} = useInView({threshold: 0.2});
+  const animation = useAnimation();
+
+  useEffect(() => {
+    if(inView) {
+      animation.start({
+        y:0,
+        opacity: 1,
+        delay: 1,
+        transition: {
+          type: 'tween',
+          duration: 0.7,
+        }
+      });
+    }});
+
+
+  useEffect(() => {
+    if(inView) {
+      animation.start({
+        y:0,
+        opacity: 1,
+        delay: 1,
+        transition: {
+          type: 'tween',
+          duration: 1,
+        }
+      });
+    }
+    else {
+      animation.start({y:'200px', opacity: 0})
+    }
+    console.log("Use effect hook, inview", inView)
+  },[]);
+
   return (
-    <div className='xl:mx-[180px] md:mx-[60px] mx-[16px]'>
+    <motion.div ref={ref} animate={animation} className='xl:mx-[180px] md:mx-[60px] mx-[16px]'>
       <div className='relative flex flex-col md:items-start justify-center items-center'>
         <h2 className="text-center text-white md:text-[44px] text-[32px] font-bold leading-none">About Me</h2>
         <div className='bg-secondary h-[8px] w-[60px] mt-2'></div>
@@ -19,7 +57,7 @@ const About = () => {
 
       </div>
       
-      </div>
+      </motion.div>
   )
 }
 

@@ -1,10 +1,48 @@
 import React from 'react';
+import { motion, useAnimation } from 'framer-motion';
+import { useInView } from 'react-intersection-observer';
+import { useEffect } from 'react';
 import { github, linkedin, logo, twitter, hashnode} from '../assets';
 
 const Footer = () => {
-  return (
-    <div>
+  const {ref, inView} = useInView({threshold: 0.2});
+  const animation = useAnimation();
 
+  useEffect(() => {
+    if(inView) {
+      animation.start({
+        y:0,
+        opacity: 1,
+        delay: 1,
+        transition: {
+          type: 'tween',
+          duration: 0.7,
+        }
+      });
+    }});
+
+
+  useEffect(() => {
+    if(inView) {
+      animation.start({
+        y:0,
+        opacity: 1,
+        delay: 1,
+        transition: {
+          type: 'tween',
+          duration: 1,
+        }
+      });
+    }
+    else {
+      animation.start({y:'200px', opacity: 0})
+    }
+    console.log("Use effect hook, inview", inView)
+  },[]);
+
+  return (
+    <div ref={ref}>
+      <motion.div animate={animation}>
       <div className='flex flex-1 justify-center items-center w-full' id='contact'>
         <form action="https://formsubmit.co/benedictaladi@gmail.com" method='POST' className='flex flex-1 flex-col max-w-[600px] w-[90%] '>
           <h3 className='text-[32px] font-medium  text-white'>Get In Touch</h3>
@@ -28,6 +66,8 @@ const Footer = () => {
           </div>
         </div>
       </div>
+      </motion.div>
+
 
     </div>
   )

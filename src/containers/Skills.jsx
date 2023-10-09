@@ -1,9 +1,46 @@
-import React from 'react'
+import React, {useEffect} from 'react'
+import { motion, useAnimation } from 'framer-motion';
+import { useInView } from 'react-intersection-observer';
 import { git, github2, react, javascript, html, css, bash, tailwind, materialui, bootstrap, node, typescript } from '../assets'
 
 const Skills = () => {
+  const {ref, inView} = useInView({threshold: 0});
+  const animation = useAnimation();
+
+  useEffect(() => {
+    if(inView) {
+      animation.start({
+        y:0,
+        opacity: 1,
+        delay: 1,
+        transition: {
+          type: 'tween',
+          duration: 0.7,
+        }
+      });
+    }});
+
+
+  useEffect(() => {
+    if(inView) {
+      animation.start({
+        y:0,
+        opacity: 1,
+        delay: 1,
+        transition: {
+          type: 'tween',
+          duration: 1,
+        }
+      });
+    }
+    else {
+      animation.start({y:'100px', opacity: 0})
+    }
+    console.log("Use effect hook, inview", inView)
+  },[]);
+
   return (
-    <div id='skills'>
+    <motion.div ref={ref} animate={animation} id='skills'>
       <div className='relative flex flex-col md:items-start justify-center items-center'>
         <h2 className="text-center text-white md:text-[44px] text-[32px] font-bold leading-none">My Skills</h2>
         <div className='bg-secondary h-[8px] w-[60px] mt-2'></div>
@@ -26,7 +63,7 @@ const Skills = () => {
 
         </div>
       </div>
-    </div>
+    </motion.div>
   )
 }
 

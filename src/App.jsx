@@ -7,11 +7,11 @@ function App() {
   const ref = useRef(null);
   return (
     <div ref={ref} className="w-full scroll_snap">
-      <section className='xl:mx-[180px] md:mx-[60px] md:my-6 lg:my-12 mx-[16px] py-[30px ]my-[24px]'>
+      <section className='xl:mx-[180px] md:mx-[60px] md:my-6 lg:my-16 mx-[16px] my-[54px]'>
               <Navbar />
         </section>
 
-          <section className='xl:mx-[180px] md:mx-[60px] mx-[16px] py-[30px] md:py-[36px] my-[24px]'>
+          <section className='xl:mx-[180px] md:mx-[60px] mx-[16px] py-[30px] md:py-[36px] md:my-[110px] my-[60px]'>
             <Hero />
           </section>
           
