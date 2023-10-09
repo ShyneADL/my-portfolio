@@ -88,9 +88,9 @@ const Hero = () => {
               <h3 className='text-white opacity-80 xl:text-[18px] xs:text-[16px] md:text-left text-center md:mt-0 mt-4 md:w-[300px]' >- Introduction</h3>
               <h2 className='text-white font-medium xl:text-[40px] md:text-[32px] text-[20px] w-[100%] md:text-left text-center md:w-[380px]  lg:w-[460px]'>{text}<Cursor /></h2>
               <p className='text-dullWhite xl:w-[450px] lg:w-[390px] md:w-[360px] md:flex md:text-left text-center mt-6'>Welcome to my portfolio website! I'm Aladi Ifeanyi, a passionate and dedicated frontend developer currently based in Lagos. With a keen eye for design and a love for crafting engaging user experiences, I specialize in turning creative ideas into functional and visually appealing digital solutions.</p>
-              <button className='hidden md:flex bg-secondary py-2 px-4 rounded-3xl mt-4 text-white font-[500] text-[18px]' onClick={handleDownload}>Download Resume</button>
+              <button className='hidden md:flex bg-secondary py-2 px-4 border-none outline-none rounded mt-4 text-white font-[500] text-[18px]' onClick={handleDownload}>Download Resume</button>
           </div>
-              <button className='flex md:hidden bg-secondary py-2 px-4 rounded-3xl mt-4 text-white font-[500] text-[18px]' onClick={handleDownload}>Download Resume</button>
+              <button className='flex md:hidden bg-secondary py-2 px-4 border-none outline-none rounded mt-4 text-white font-[500] text-[18px]' onClick={handleDownload}>Download Resume</button>
         </ motion.div>
 
 
