@@ -101,3 +101,11 @@ body {
     place-items: start;
 }
 
+.iconn {
+  transform: scale(0.25);
+}
+
+.fill-tran  {
+  fill: white;
+  transition: fill 0.3s;
+}
