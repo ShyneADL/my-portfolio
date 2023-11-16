@@ -20,7 +20,8 @@ import nft from './NFTcube.png';
 import jm from './Jamal.png';
 import ww from './WealthWise.png';
 import yemar from './Yemar.jpg';
-import sunny from './sunny.jpg'
+import sneakers from './sneakers-product.jpg';
+import todo from './todo.png';
 import myself from './myself.jpg';
 import hashnode from './hn.png';
 
@@ -49,6 +50,7 @@ export {
     jm,
     ww,
     yemar,
-    sunny,
+    sneakers,
+    todo,
     myself,
 }

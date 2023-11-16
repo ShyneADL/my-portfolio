@@ -5,6 +5,7 @@ import { useRef } from "react";
 const Home = () => {
     const ref = useRef(null);
   return (
+    
     <div ref={ref} className="w-full scroll_snap">
       <section className='xl:mx-[180px] md:mx-[60px] md:my-6 lg:my-16 mx-[16px] my-[54px]'>
               <Navbar />
