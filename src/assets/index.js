@@ -24,9 +24,11 @@ import sneakers from './sneakers-product.jpg';
 import todo from './todo.png';
 import myself from './myself.jpg';
 import hashnode from './hn.png';
+import resume from './Resume.pdf';
 
 
 export {
+    resume,
     hashnode,
     logo,
     close,

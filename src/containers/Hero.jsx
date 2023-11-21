@@ -1,5 +1,5 @@
 import React from 'react';
-import { linkedin,github, twitter, hashnode } from '../assets';
+import { linkedin,github, twitter, hashnode, resume } from '../assets';
 import { motion, useAnimation } from 'framer-motion';
 import { useInView } from 'react-intersection-observer';
 import { useEffect } from 'react';
@@ -50,7 +50,7 @@ const Hero = () => {
 
   const handleDownload = () => {
     // Specify the path to your PDF file in the assets folder
-    const pdfPath = "src/assets/Ifeanyi's Resume.pdf";
+    const pdfPath = resume;
 
     // Use fetch to get the PDF file
     fetch(pdfPath)
