@@ -1,8 +1,0 @@
-import { ww,jm,nft,yemar,sunny } from "../assets"
-
-export const projectData = [
-    {img:`${ww}`, alt:"wealthwise" ,heading:"WealthWise" ,demo:"https://wealthwise-gold.vercel.app/" , ghub : "https://github.com/ShyneADL/wealthwise" ,text:"WealthWise is a comprehensive stocks investment app crafted using React and Tailwind. This app empowers users to make informed investment decisions by providing real-time data and insights about stocks listed on the NSE.",},
-    { img:`${jm}`, alt:"JM - Photography Portfolio", heading:"JM", demo:"https://photo-portfolio-inky-two.vercel.app/", ghub:"https://github.com/ShyneADL/photo-portfolio" ,text:"This is a captivating and visually immersive photographer portfolio website built using React and Tailwind. It's designed to showcase the photography skills, creative vision, and artistic journey of the client."},
-    {img:`${nft}`, alt:"NFTcube", heading:"NFTcube", demo:"https://nft-cube-website.vercel.app/" ,ghub:"https://github.com/ShyneADL/NFTcube-Website" ,text:"NFTcube is a captivating and enticing landing page for an NFTs, crafted using React. The page serves as a gateway to introduce users to the world of NFTs, highlighting their significance and impact for both creators and collectors."},
-    {img:`${yemar}`, alt:"Yemar", heading:"Ye-mar", demo:"https://ye-mar.com/" ,text:"Created a visually captivating Shopify website, Ye-mar, for a modern swimwear store. The site features an immersive shopping experience, showcasing a diverse range of swimwear products for both young and middle-aged women."}
-]
