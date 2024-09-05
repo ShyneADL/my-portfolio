@@ -1,37 +1,47 @@
-"use client";
-import React, { useState, createContext } from "react";
-import { Routes, Route, BrowserRouter } from "react-router-dom";
-import Home from "./pages/index";
-import ProjectsPage from "./pages/projects/page";
+import React from "react";
+import { Navbar, Hero, About, Projects, Footer } from "@/app/containers";
 
-// Define a type for the context value
-interface ThemeContextType {
-  theme: string;
-  toggleTheme: () => void;
-}
-
-// Create the context with the defined type
-export const ThemeContext = createContext<ThemeContextType | null>(null);
-
-function App() {
-  const [theme, setTheme] = useState("dark");
-
-  const toggleTheme = () => {
-    setTheme((curr) => (curr === "dark" ? "light" : "dark"));
-  };
-
+const Home = () => {
   return (
-    <ThemeContext.Provider value={{ theme, toggleTheme }}>
-      <div>
-        <BrowserRouter>
-          <Routes>
-            <Route path="/" element={<Home />} />
-            <Route path="/projects" element={<ProjectsPage />} />
-          </Routes>
-        </BrowserRouter>
-      </div>
-    </ThemeContext.Provider>
-  );
-}
+    <div className="w-full scroll_snap">
+      <div className="flex flex-col items-start justify-between w-full md:py-[60px] py-[30px] h-[100vh]">
+        <section
+          role="navigation"
+          className="xl:px-[180px] md:px-[60px] md:py-6 px-[16px] w-full"
+        >
+          <Navbar />
+        </section>
 
-export default App;
+        <section
+          role="main"
+          className="xl:px-[180px] md:px-[60px] px-[16px] w-full"
+        >
+          <Hero />
+        </section>
+      </div>
+
+      <section
+        role="article"
+        className="bg-dullPry xl:px-[180px] md:px-[60px] px-[16px] py-[40px] md:py-[110px] "
+      >
+        <About />
+      </section>
+
+      <section
+        role="article"
+        className="bg-dullPry xl:px-[180px] md:px-[60px] px-[16px] py-[40px] md:py-[110px]"
+      >
+        <Projects />
+      </section>
+
+      <section
+        role="footer"
+        className="py-[30px] md:py-[110px] px-[30px] xl:px-[180px] md:px-[60px]"
+      >
+        <Footer />
+      </section>
+    </div>
+  );
+};
+
+export default Home;

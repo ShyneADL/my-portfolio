@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import Link from 'next/link'
 
 const Navbar = () => {
   // const [active, setActive] = useState("");
@@ -16,10 +17,10 @@ const Navbar = () => {
         </div>
         <ul className="flex-1 sm:flex hidden justify-end items-center list-none ">
           <li className="mr-5 cursor-pointer text-[18px] text-[#fff] font-medium">
-            <a href="#home">Home</a>
+            <Link href="/">Home</Link>
           </li>
           <li className="mr-5 cursor-pointer text-[18px] text-[#848482] font-medium">
-            <a href="#projects">Projects</a>
+            <Link href="/projects">Projects</Link>
           </li>
         </ul>
 
@@ -40,23 +41,15 @@ const Navbar = () => {
               <li
                 className={`font-mont mb-2 font-medium cursor-pointer text-[16px] text-white`}
               >
-                <a href="#home">Home</a>
+                <Link href="/">Home</Link>
               </li>
+              
               <li
                 className={`font-mont mb-2 font-medium cursor-pointer text-[16px] text-white`}
               >
-                <a href="#skills">Skills</a>
+                <Link href="/projects">Projects</Link>
               </li>
-              <li
-                className={`font-mont mb-2 font-medium cursor-pointer text-[16px] text-white`}
-              >
-                <a href="#projects">Projects</a>
-              </li>
-              <li
-                className={`font-mont mb-2 font-medium cursor-pointer text-[16px] text-white`}
-              >
-                <a href="#contact">Contact</a>
-              </li>
+              
             </ul>
           </div>
         </div>
