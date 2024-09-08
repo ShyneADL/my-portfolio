@@ -1,9 +1,9 @@
 import React from "react";
 import Image from "next/image";
-import { links } from "../components/ProjectData";
+import { links } from "@/app/components/ProjectData";
 const Footer = () => {
   return (
-    <div>
+    <div className="xl:px-[180px] md:px-[60px] md:py-6 px-[16px] w-full">
       <div
         className="flex flex-1 justify-center items-center w-full"
         id="contact"

@@ -6,7 +6,7 @@ import { ScrollTrigger } from "gsap/ScrollTrigger";
 import { useTypewriter, Cursor } from "react-simple-typewriter";
 import { saveAs } from "file-saver";
 import Image from "next/image";
-import { links } from "../components/ProjectData";
+import { links } from "@/app/components/ProjectData";
 gsap.registerPlugin(ScrollTrigger);
 
 const Hero = () => {
@@ -20,7 +20,7 @@ const Hero = () => {
       {
         xPercent: 0,
         duration: 1,
-        ease: "expo.in",
+        ease: "none",
       }
     );
   }, []);

@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
-import "./index.css";
+import { Footer, Navbar } from "@/app/containers";
+import "../globals.css";
 
 export const metadata: Metadata = {
   title: "Ifeanyi Aladi",
@@ -13,7 +14,11 @@ export default function ProjectsLayout({
 }>) {
   return (
     <html lang="en">
-      <body>{children}</body>
+      <body>
+        <Navbar />
+        {children}
+        <Footer />
+      </body>
     </html>
   );
 }

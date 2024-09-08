@@ -5,8 +5,8 @@ import { useGSAP } from "@gsap/react";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import Link from "next/link";
 
-import { featuredProjects } from "../components/ProjectData";
-import ProjectTab from "../components/ProjectTab";
+import { featuredProjects } from "@/app/components/ProjectData";
+import ProjectTab from "@/app/components/ProjectTab";
 gsap.registerPlugin(ScrollTrigger);
 
 const Projects = () => {
@@ -74,6 +74,7 @@ const Projects = () => {
       >
         {featuredProjects.map((item) => (
           <ProjectTab
+            key={item.heading}
             text={item.text}
             img={item.img}
             alt={item.alt}
@@ -84,7 +85,7 @@ const Projects = () => {
           />
         ))}
       </div>
-      <Link href="/projects">
+      <Link href="/projects" className="w-full">
         <button className="bg-transparent lg:py-6 py-3 border-[1px] border-white border-solid rounded-full text-[1rem] font-mont font-semibold text-white w-full">
           View More Projects
         </button>

@@ -12,8 +12,9 @@ const About = () => {
     const tl = gsap.timeline({
       scrollTrigger: {
         trigger: aboutRef.current,
-        start: "top top",
+        start: "top +550",
         end: "bottom bottom",
+        markers: true,
       },
     });
 
@@ -32,7 +33,10 @@ const About = () => {
     );
   }, []);
   return (
-    <div ref={aboutRef} className="w=full">
+    <div
+      ref={aboutRef}
+      className=" xl:px-[180px] md:px-[60px] px-[16px] py-[40px] md:py-[110px] w=full"
+    >
       <div className="relative flex flex-col md:items-start justify-center items-center">
         <h2 className="text-center text-white md:text-[44px] text-[32px] font-bold leading-none">
           About Me
