@@ -1,6 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import { links } from "@/app/components/ProjectData";
+import Button from "../components/Button";
 const Footer = () => {
   return (
     <div className="xl:px-[180px] md:px-[60px] md:py-6 px-[16px] w-full">
@@ -37,12 +38,7 @@ const Footer = () => {
             placeholder="Got a job or project proposition?"
             className="my-2 p-3 rounded-sm"
           ></textarea>
-          <button
-            type="submit"
-            className="p-2 bg-secondary text-white text-[18px] border-none outline-none cursor-pointer w-[150px] rounded"
-          >
-            Submit
-          </button>
+          <Button color='primary' text="Submit" />
         </form>
       </div>
 

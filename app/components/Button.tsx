@@ -7,13 +7,14 @@ interface ButtonProps {
 
 const Button: React.FC<ButtonProps> = ({ color, text }) => {
   return (
-    <button role='button'
+    <div
+      role="button"
       className={`${
-        color === "primary" ? "bg-secondary" : "bg-black"
-      } px-6 py-3 rounded-full text-white text-[1rem] font-mont font-bold`}
+        color === "primary" ? "bg-secondary text-white" : "bg-white text-black"
+      } md:px-6 px-4 cursor-pointer md:py-3 py-2 rounded-[16px] text-[1rem] w-fit transition-all shadow-[3px_3px_0px_black] hover:shadow-none hover:translate-x-[3px] hover:translate-y-[3px]`}
     >
       {text}
-    </button>
+    </div>
   );
 };
 

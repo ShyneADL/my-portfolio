@@ -3,10 +3,11 @@ import React, { useRef } from "react";
 import gsap from "gsap";
 import { useGSAP } from "@gsap/react";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
-import {TransitionLink} from "@/app/components/TransitionLink";
+import { TransitionLink } from "@/app/components/TransitionLink";
 
 import { featuredProjects } from "@/app/components/ProjectData";
 import ProjectTab from "@/app/components/ProjectTab";
+import StylishButton from "../components/StylishButton";
 gsap.registerPlugin(ScrollTrigger);
 
 const Projects = () => {
@@ -85,11 +86,11 @@ const Projects = () => {
           />
         ))}
       </div>
-      <TransitionLink href="/projects">
-        <button className="bg-transparent lg:py-6 py-3 border-[1px] border-white border-solid rounded-full text-[1rem] font-mont font-semibold text-white w-full">
-          View More Projects
-        </button>
-      </TransitionLink>
+      <div className="flex items-center justify-center w-[100%]">
+        <TransitionLink href="/projects">
+          <StylishButton />
+        </TransitionLink>
+      </div>
     </div>
   );
 };

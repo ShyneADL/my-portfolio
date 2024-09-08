@@ -7,6 +7,7 @@ import { useTypewriter, Cursor } from "react-simple-typewriter";
 import { saveAs } from "file-saver";
 import Image from "next/image";
 import { links } from "@/app/components/ProjectData";
+import Button from "../components/Button";
 gsap.registerPlugin(ScrollTrigger);
 
 const Hero = () => {
@@ -84,19 +85,13 @@ const Hero = () => {
             specialize in turning creative ideas into functional and visually
             appealing digital solutions.
           </p>
-          <button
-            className="hidden md:flex bg-secondary py-2 px-4 border-none outline-none rounded mt-4 text-white font-[500] text-[18px]"
-            onClick={handleDownload}
-          >
-            Download Resume
-          </button>
+          <div className="hidden md:flex mt-6" onClick={handleDownload}>
+            <Button color="primary" text="Download Resume" />
+          </div>
         </div>
-        <button
-          className="flex md:hidden bg-secondary py-2 px-4 border-none outline-none rounded mt-4 text-white font-[500] text-[18px]"
-          onClick={handleDownload}
-        >
-          Download Resume
-        </button>
+        <div className="flex md:hidden mt-6" onClick={handleDownload}>
+          <Button color="primary" text="Download Resume" />
+        </div>
       </div>
 
       {/* Mobile Links View */}

@@ -11,6 +11,7 @@ const config: Config = {
       colors: {
         primary: "#44545F",
         dullPry: "#4E606E",
+        darkPry: "#2a3439",
         dullWhite: "rgba(255,255,255,0.7)",
         secondary: "#B31B1B",
         secBtn: "rgba(179,27,27,0.4)",
