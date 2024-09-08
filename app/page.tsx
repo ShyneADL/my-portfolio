@@ -3,8 +3,8 @@ import { Navbar, Hero, About, Projects, Footer } from "@/app/containers";
 
 const Home = () => {
   return (
-    <div className="w-full scroll_snap">
-      <div className="flex flex-col items-start justify-between w-full md:py-[60px] py-[30px] h-[100vh]">
+    <div className="w-full scroll_snap overflow-hidden">
+      <div className="flex flex-col items-start justify-around w-full h-[100vh]">
         <section role="navigation" className="w-full">
           <Navbar />
         </section>
