@@ -3,6 +3,7 @@ import React, { useState, useEffect } from "react";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import Image from "next/image";
+import { TransitionLink } from "../components/TransitionLink";
 const Navbar = () => {
   const pathname = usePathname();
   const [active, setActive] = useState(pathname);
@@ -46,14 +47,14 @@ const Navbar = () => {
               active === "/" ? "text-white" : "text-[#848482]"
             }`}
           >
-            <Link href="/">Home</Link>
+            <TransitionLink href="/">Home</TransitionLink>
           </li>
           <li
             className={`mr-5 cursor-pointer text-[18px] font-medium ${
               active === "/projects" ? "text-white" : "text-[#848482]"
             }`}
           >
-            <Link href="/projects">Projects</Link>
+            <TransitionLink href="/projects">Projects</TransitionLink>
           </li>
         </ul>
 
@@ -74,13 +75,13 @@ const Navbar = () => {
               <li
                 className={`font-mont mb-2 font-medium cursor-pointer text-[16px] text-white`}
               >
-                <Link href="/">Home</Link>
+                <TransitionLink href="/">Home</TransitionLink>
               </li>
 
               <li
                 className={`font-mont mb-2 font-medium cursor-pointer text-[16px] text-white`}
               >
-                <Link href="/projects">Projects</Link>
+                <TransitionLink href="/projects">Projects</TransitionLink>
               </li>
             </ul>
           </div>

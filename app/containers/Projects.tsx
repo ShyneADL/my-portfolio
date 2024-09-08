@@ -3,7 +3,7 @@ import React, { useRef } from "react";
 import gsap from "gsap";
 import { useGSAP } from "@gsap/react";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
-import Link from "next/link";
+import {TransitionLink} from "@/app/components/TransitionLink";
 
 import { featuredProjects } from "@/app/components/ProjectData";
 import ProjectTab from "@/app/components/ProjectTab";
@@ -85,11 +85,11 @@ const Projects = () => {
           />
         ))}
       </div>
-      <Link href="/projects" className="w-full">
+      <TransitionLink href="/projects">
         <button className="bg-transparent lg:py-6 py-3 border-[1px] border-white border-solid rounded-full text-[1rem] font-mont font-semibold text-white w-full">
           View More Projects
         </button>
-      </Link>
+      </TransitionLink>
     </div>
   );
 };
