@@ -9,7 +9,7 @@ export const projectData = [
     text: "NFTcube is a captivating and enticing landing page for an NFTs, crafted using React. The page serves as a gateway to introduce users to the world of NFTs, highlighting their significance and impact for both creators and collectors.",
   },
   {
-    img: "/assets/Wealthwise.png",
+    img: "/assets/ww.png",
     alt: "wealthwise",
     heading: "WealthWise",
     demo: "https://wealthwise-gold.vercel.app/",
@@ -50,7 +50,7 @@ export const featuredProjects = [
     text: "NFTcube is a captivating and enticing landing page for an NFTs, crafted using React. The page serves as a gateway to introduce users to the world of NFTs, highlighting their significance and impact for both creators and collectors.",
   },
   {
-    img: "/assets/Wealthwise.png",
+    img: "/assets/ww.png",
     alt: "wealthwise",
     heading: "WealthWise",
     demo: "https://wealthwise-gold.vercel.app/",
