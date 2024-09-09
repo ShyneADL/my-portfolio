@@ -114,14 +114,13 @@ export const featuredProjects = [
     text: "WealthWise is a comprehensive stocks investment app crafted using React and Tailwind. This app empowers users to make informed investment decisions by providing real-time data and insights about stocks listed on the NSE.",
   },
   {
-    img: "/assets/Jamal.png",
-    alt: "JM - Photography Portfolio",
-    heading: "JM",
-    demo: "https://photo-portfolio-inky-two.vercel.app/",
-    ghub: "https://github.com/ShyneADL/photo-portfolio",
-    title: "Photographer Portfolio",
-    tech: "React",
-    text: "This is a captivating and visually immersive photographer portfolio website built using React and Tailwind. It's designed to showcase the photography skills, creative vision, and artistic journey of the client.",
+    img: "/assets/todo.jpeg",
+    alt: "Todo App",
+    heading: "Todo",
+    demo: "https://todo-app-shyneadl.vercel.app/",
+    ghub: "https://github.com/ShyneADL/todo-app",
+    tech: "React, Tailwind, LocalStorage",
+    text: "This project was my first test with local storage and working with date and arrays in jsx. Implemented a theme switcher to practice context handling across an application.",
   },
 ];
 
