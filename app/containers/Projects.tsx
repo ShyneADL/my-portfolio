@@ -19,7 +19,7 @@ const Projects = () => {
     const tl = gsap.timeline({
       scrollTrigger: {
         trigger: projectsRef.current,
-        start: "top +300",
+        start: "top +600",
         end: "bottom bottom",
       },
     });
