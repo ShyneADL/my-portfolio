@@ -45,7 +45,7 @@ const About = () => {
 
       <div className="flex flex-1 items-center w-full md:flex-row flex-col md:justify-start justify-center">
         <img
-          src="/../assets/myself.jpg"
+          src="/assets/myself.jpg"
           alt="me"
           className="w-[300px] lg:ml-20 md:mt-10 mt-5 lg:mr-[80px] md:mr-[30px]"
         />
