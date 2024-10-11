@@ -1,5 +1,14 @@
 export const projectData = [
   {
+    img: "/assets/KetoHub.png",
+    alt: "KetoHub App",
+    heading: "KetoHub Web App",
+    demo: "https://ketohub.vercel.app/",
+    ghub: "https://github.com/ShyneADL/recipe-app",
+    tech: "NextJS, TypeScript, Tailwind, ShadcnUI LocalStorage",
+    text: "KetoHub is a recipe web app where users can search over a catalogue of 400+ high quality ketogenic recipes.",
+  },
+  {
     img: "/assets/NFTcube.png",
     alt: "NFTcube",
     heading: "NFTcube",
@@ -94,6 +103,15 @@ export const projectData = [
 
 export const featuredProjects = [
   {
+    img: "/assets/KetoHub.png",
+    alt: "KetoHub App",
+    heading: "KetoHub Web App",
+    demo: "https://ketohub.vercel.app/",
+    ghub: "https://github.com/ShyneADL/recipe-app",
+    tech: "NextJS, TypeScript, Tailwind, ShadcnUI LocalStorage",
+    text: "KetoHub is a recipe web app where users can search over a catalogue of 400+ high quality ketogenic recipes.",
+  },
+  {
     img: "/assets/NFTcube.png",
     alt: "NFTcube",
     heading: "NFTcube",
@@ -112,15 +130,6 @@ export const featuredProjects = [
     title: "NASDAQ Stocks app",
     tech: "React, Tailwind, API",
     text: "WealthWise is a comprehensive stocks investment app crafted using React and Tailwind. This app empowers users to make informed investment decisions by providing real-time data and insights about stocks listed on the NSE.",
-  },
-  {
-    img: "/assets/todo.jpeg",
-    alt: "Todo App",
-    heading: "Todo",
-    demo: "https://todo-app-shyneadl.vercel.app/",
-    ghub: "https://github.com/ShyneADL/todo-app",
-    tech: "React, Tailwind, LocalStorage",
-    text: "This project was my first test with local storage and working with date and arrays in jsx. Implemented a theme switcher to practice context handling across an application.",
   },
 ];
 
