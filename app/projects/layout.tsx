@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { Analytics } from "@vercel/analytics/react";
 import { Footer, Navbar } from "@/app/containers";
 import "../globals.css";
 
@@ -18,6 +19,7 @@ export default function ProjectsLayout({
         <Navbar />
         {children}
         <Footer />
+        <Analytics />
       </body>
     </html>
   );
