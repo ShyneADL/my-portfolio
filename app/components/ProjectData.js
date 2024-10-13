@@ -1,13 +1,13 @@
 export const projectData = [
-  // {
-  //   img: "/assets/KetoHub.png",
-  //   alt: "KetoHub App",
-  //   heading: "KetoHub Web App",
-  //   demo: "https://ketohub.vercel.app/",
-  //   ghub: "https://github.com/ShyneADL/recipe-app",
-  //   tech: "NextJS, TypeScript, Tailwind, ShadcnUI, LocalStorage",
-  //   text: "KetoHub is a recipe web app where users can search over a catalogue of 400+ high quality ketogenic recipes.",
-  // },
+  {
+    img: "/assets/KetoHub.png",
+    alt: "KetoHub App",
+    heading: "KetoHub Web App",
+    demo: "https://ketohub.vercel.app/",
+    ghub: "https://github.com/ShyneADL/recipe-app",
+    tech: "NextJS, TypeScript, Tailwind, ShadcnUI, LocalStorage",
+    text: "KetoHub is a recipe web app where users can search over a catalogue of 400+ high quality ketogenic recipes.",
+  },
   {
     img: "/assets/NFTcube.png",
     alt: "NFTcube",
@@ -102,15 +102,15 @@ export const projectData = [
 ];
 
 export const featuredProjects = [
-  // {
-  //   img: "/assets/KetoHub.png",
-  //   alt: "KetoHub App",
-  //   heading: "KetoHub Web App",
-  //   demo: "https://ketohub.vercel.app/",
-  //   ghub: "https://github.com/ShyneADL/recipe-app",
-  //   tech: "NextJS, TypeScript, Tailwind, ShadcnUI, LocalStorage",
-  //   text: "KetoHub is a recipe web app where users can search over a catalogue of 400+ high quality ketogenic recipes.",
-  // },
+  {
+    img: "/assets/KetoHub.png",
+    alt: "KetoHub App",
+    heading: "KetoHub Web App",
+    demo: "https://ketohub.vercel.app/",
+    ghub: "https://github.com/ShyneADL/recipe-app",
+    tech: "NextJS, TypeScript, Tailwind, ShadcnUI, LocalStorage",
+    text: "KetoHub is a recipe web app where users can search over a catalogue of 400+ high quality ketogenic recipes.",
+  },
   {
     img: "/assets/NFTcube.png",
     alt: "NFTcube",
