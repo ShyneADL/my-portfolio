@@ -5,7 +5,7 @@ export const projectData = [
     heading: "KetoHub Web App",
     demo: "https://ketohub.vercel.app/",
     ghub: "https://github.com/ShyneADL/recipe-app",
-    tech: "NextJS, TypeScript, Tailwind, ShadcnUI, LocalStorage",
+    tech: "NextJS, TypeScript, Tailwind, ShadcnUI, Zustand",
     text: "KetoHub is a recipe web app where users can search over a catalogue of 400+ high quality ketogenic recipes.",
   },
   {
