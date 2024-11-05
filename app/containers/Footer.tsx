@@ -38,19 +38,12 @@ const Footer = () => {
             placeholder="Got a job or project proposition?"
             className="my-2 p-3 rounded-sm"
           ></textarea>
-          <Button color='primary' text="Submit" />
+          <Button color="primary" text="Submit" />
         </form>
       </div>
 
       <div className="w-[100%] flex flex-1 flex-col justify-center items-center lg:mt-36 mt-16">
-        <Image
-          width={45}
-          height={45}
-          alt="logo"
-          src="/assets/logo.png"
-          className="w-[45px] lg:w-[80px]"
-        />
-        <p className="text-white text-[18px] lg:text-[28px] font-medium text-center mt-4 ">
+        <p className="text-white text-[18px] lg:text-[28px] font-medium text-center ">
           Thanks for visiting!
         </p>
         <div className="flex justify-center align-center w-full mt-[30px]">
