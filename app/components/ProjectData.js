@@ -164,3 +164,11 @@ export const navLinks = [
     link: "/projects",
   },
 ];
+
+export const Services = [
+  {
+    id: 0,
+    title: "E-Commerce Websites",
+    img: "",
+  },
+];
