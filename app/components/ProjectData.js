@@ -171,4 +171,19 @@ export const Services = [
     title: "E-Commerce Websites",
     img: "",
   },
+  {
+    id: 1,
+    title: "WordPress Templates",
+    img: "",
+  },
+  {
+    id: 2,
+    title: "Web Design & Development",
+    img: "",
+  },
+  {
+    id: 3,
+    title: "SEO",
+    img: "",
+  },
 ];
