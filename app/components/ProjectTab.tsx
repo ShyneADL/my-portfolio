@@ -10,7 +10,7 @@ interface ProjectTabProps {
   text: string;
   tech: string;
   demo: string;
-  ghub: string;
+  ghub?: string;
 }
 
 const ProjectTab: React.FC<ProjectTabProps> = ({
@@ -28,7 +28,7 @@ const ProjectTab: React.FC<ProjectTabProps> = ({
         <Image src={img} width={400} height={350} alt={alt} />
       </div>
       <div className="flex flex-col p-4 lg:items-start items-center md:gap-4 gap-3 w-full">
-        <h3 className="text-[1.75rem] font-semibold text-left text-white leading-[20px]">
+        <h3 className="text-[1.75rem] font-semibold text-left text-white leading-[28px]">
           {heading}
         </h3>
         <h5 className="text-[1rem] font-normal text-dimWhite text-left">
@@ -41,9 +41,11 @@ const ProjectTab: React.FC<ProjectTabProps> = ({
           <a href={demo}>
             <Button text="Demo" color="primary" />
           </a>
-          <a href={ghub}>
-            <Button text="Github" color="" />
-          </a>
+          {ghub && (
+            <a href={ghub}>
+              <Button text="Github" color="" />
+            </a>
+          )}
         </div>
       </div>
     </div>

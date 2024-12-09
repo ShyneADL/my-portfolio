@@ -86,7 +86,6 @@ export const projectData = [
     alt: "Yemar",
     heading: "Ye-mar",
     demo: "https://ye-mar.com/",
-    ghub: "",
     tech: "Shopify",
     text: "Created a visually captivating Shopify website, Ye-mar, for a modern swimwear store. The site features an immersive shopping experience, showcasing a diverse range of swimwear products for both young and middle-aged women.",
   },
