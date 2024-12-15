@@ -141,7 +141,7 @@ export const links = [
   },
   {
     name: "LinkedIn",
-    link: "https://www.linkedin.com/in/ifeanyi-aladi-61675b1ba",
+    link: "https://www.linkedin.com/in/ifeanyi-aladi",
     img: "/assets/linkedin.svg",
     alt: "Linkedin link",
   },

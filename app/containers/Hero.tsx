@@ -62,8 +62,19 @@ const Hero = () => {
           <div className="bg-secondary lg:h-[8px] md:h-[6px] w-[60px] mt-2"></div>
           <div className="md:flex md:flex-1 md:gap-[25px] w-[200px] lg:mt-[50px] md:mt-[40px] items-center hidden">
             {links.map((item) => (
-              <a key={item.name} href={item.link} target="_blank">
-                <Image src={item.img} width={25} height={25} alt={item.alt} />
+              <a
+                key={item.name}
+                href={item.link}
+                className="w-[25px] h-[25px]"
+                target="_blank"
+              >
+                <Image
+                  src={item.img}
+                  width={25}
+                  height={25}
+                  className="object-cover"
+                  alt={item.alt}
+                />
               </a>
             ))}
           </div>
@@ -99,8 +110,19 @@ const Hero = () => {
       <div className="flex justify-center align-center w-full mt-[30px]">
         <div className="md:hidden flex flex-1 gap-5 w-[25px] items-center justify-center">
           {links.map((item) => (
-            <a key={item.name} href={item.link} target="_blank">
-              <Image src={item.img} width={25} height={25} alt={item.alt} />
+            <a
+              key={item.name}
+              href={item.link}
+              className="w-[25px] h-[25px]"
+              target="_blank"
+            >
+              <Image
+                src={item.img}
+                width={25}
+                height={25}
+                className="object-cover"
+                alt={item.alt}
+              />
             </a>
           ))}
         </div>
