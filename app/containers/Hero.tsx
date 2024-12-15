@@ -68,13 +68,7 @@ const Hero = () => {
                 className="w-[25px] h-[25px]"
                 target="_blank"
               >
-                <Image
-                  src={item.img}
-                  width={25}
-                  height={25}
-                  className="object-cover"
-                  alt={item.alt}
-                />
+                <Image src={item.img} width={25} height={25} alt={item.alt} />
               </a>
             ))}
           </div>

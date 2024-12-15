@@ -147,8 +147,8 @@ export const links = [
   },
   {
     name: "X",
-    link: '"https://x.com/IfyADL"',
-    img: "/assets/twitter.svg",
+    link: "https://x.com/IfyADL",
+    img: "/assets/twitter.png",
     alt: "X link",
   },
 ];

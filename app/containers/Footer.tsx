@@ -105,12 +105,7 @@ const Footer = () => {
         <div className="flex justify-center align-center w-full mt-[30px]">
           <div className="flex flex-1 w-fit gap-5 items-center justify-center">
             {links.map((item) => (
-              <a
-                key={item.name}
-                href={item.link}
-                className="w-[25px] h-[25px]"
-                target="_blank"
-              >
+              <a key={item.name} href={item.link} className="w-[25px] h-[25px]">
                 <Image
                   src={item.img}
                   width={25}
