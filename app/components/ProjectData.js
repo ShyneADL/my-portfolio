@@ -218,7 +218,7 @@ export const skills = [
   {
     id: 12,
     alt: "gsap",
-    img: "/assets/gsap.jpg",
+    img: "/assets/gsap.png",
   },
   {
     id: 12,
