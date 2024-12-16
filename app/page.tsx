@@ -1,6 +1,13 @@
 import React from "react";
-import { Navbar, Hero, About, Projects, Footer } from "@/app/containers";
-import Skills from "./containers/Skills";
+import {
+  Navbar,
+  Hero,
+  About,
+  Skills,
+  Projects,
+  Services,
+  Footer,
+} from "@/app/containers";
 
 const Home = () => {
   return (
@@ -28,6 +35,10 @@ const Home = () => {
 
       <section role="article" className="bg-dullPry w-full">
         <Projects />
+      </section>
+
+      <section role="article" className="bg-dullPry w-full">
+        <Services />
       </section>
 
       <section role="footer" className="w-full">
