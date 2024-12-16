@@ -75,7 +75,7 @@ export const projectData = [
     img: "/assets/sneakers.jpeg",
     alt: "Sneakers Product Page",
     heading: "Sneakers Product Page",
-    demo: "https://github.com/ShyneADL/sneakers-product-page",
+    demo: "https://sneakers-product-page-eight.vercel.app/",
     ghub: "https://github.com/ShyneADL/sneakers-product-page",
     tech: "React, Tailwind",
     text: "This challenge was taken from frontendmentor where I made to create a modern product page with features such as cart states, modals, image loading and carousels on mobile.",
