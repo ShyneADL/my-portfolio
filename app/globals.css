@@ -20,7 +20,6 @@ body {
   transition-duration: 500ms;
 }
 
-
 .page-transition {
   opacity: 0;
   background: black;
@@ -65,19 +64,18 @@ body {
 }
 
 .skills-grid {
-  display: grid;
+  display: flex;
   position: relative;
-
-  grid-template-rows: 1fr 1fr 1fr;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
   gap: 20px;
   height: 100%;
   place-items: center;
 }
 
 .skills-grid img {
-  max-width: 40%;
+  transition: all 0.2s ease-in-out;
 }
 
 .skills-grid img:hover {

@@ -25,13 +25,13 @@ const ProjectTab: React.FC<ProjectTabProps> = ({
   return (
     <div className="flex lg:flex-row flex-col  items-start gap-10 lg:bg-transparent bg-[#2a3439] rounded-[8px] w-full">
       <div className="lg:w-[400px] w-full">
-        <Image src={img} width={400} height={350} alt={alt} />
+        <Image src={img} width={800} height={700} alt={alt} />
       </div>
       <div className="flex flex-col p-4 lg:items-start items-center md:gap-4 gap-3 w-full">
         <h3 className="text-[1.75rem] font-semibold text-left text-white leading-[28px]">
           {heading}
         </h3>
-        <h5 className="text-[1rem] font-normal text-dimWhite text-left">
+        <h5 className="text-[1rem] font-normal text-dimWhite text-center">
           {tech}
         </h5>
         <p className="text-[1rem] font-normal lg:text-left text-center text-dullWhite">

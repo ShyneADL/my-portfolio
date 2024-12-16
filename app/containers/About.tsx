@@ -34,7 +34,7 @@ const About = () => {
   return (
     <div
       ref={aboutRef}
-      className=" xl:px-[180px] md:px-[60px] px-[16px] py-[40px] md:py-[110px] w=full"
+      className=" xl:px-[180px] md:px-[60px] px-[16px] py-[40px] md:py-[110px] w-full"
     >
       <div className="relative flex flex-col md:items-start justify-center items-center">
         <h2 className="text-center text-white md:text-[44px] text-[32px] font-bold leading-none">
@@ -51,9 +51,9 @@ const About = () => {
         />
         <p className="lg:max-w-[550px] md:max-w-[670px] max-w-[350px] text-dullWhite leading-[28px] text-[1.2rem] md:mt-[80px] mt-[20px] md:text-left text-center ">
           Welcome to my portfolio! I am a dedicated Frontend Developer
-          specializing in React/NextJS, TypeScript, and Tailwind. With a
-          Computer Science degree and a CGPA of 4.04/5.0, I excel at translating
-          complex hi-fi designs into high-performance, responsive websites.
+          specializing in React/NextJS, TypeScript, and TailwindCSS. With a
+          Computer Science degree, I excel at translating complex hi-fi designs
+          into high-performance, responsive websites.
           <br />
           <br /> A natural leader with strong teamwork skills, I am committed to
           delivering exceptional results by merging technical expertise with a

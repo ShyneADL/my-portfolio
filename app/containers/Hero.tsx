@@ -83,13 +83,7 @@ const Hero = () => {
             {text}
             <Cursor />
           </h2>
-          <p className="text-dullWhite xl:w-[450px] lg:w-[390px] md:w-[360px] md:flex md:text-left text-center mt-6">
-            Welcome to my portfolio website! I'm Aladi Ifeanyi, a passionate and
-            dedicated frontend developer currently based in Lagos. With a keen
-            eye for design and a love for crafting engaging user experiences, I
-            specialize in turning creative ideas into functional and visually
-            appealing digital solutions.
-          </p>
+
           <div className="hidden md:flex mt-6" onClick={handleDownload}>
             <Button color="primary" text="Download Resume" />
           </div>

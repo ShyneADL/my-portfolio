@@ -57,7 +57,7 @@ const Projects = () => {
   return (
     <div
       ref={projectsRef}
-      className="flex flex-col items-start lg:gap-16 gap-5"
+      className="xl:px-[180px] md:px-[60px] px-[16px] py-[40px] md:py-[110px] w-full"
     >
       <div
         ref={titleRef}
@@ -71,7 +71,7 @@ const Projects = () => {
 
       <div
         ref={projectDataRef}
-        className="flex flex-col items-start gap-16 w-full"
+        className="flex flex-col items-start gap-16 lg:mt-10 mt-8 w-full"
       >
         {featuredProjects.map((item) => (
           <ProjectTab
@@ -86,7 +86,7 @@ const Projects = () => {
           />
         ))}
       </div>
-      <div className="flex items-center justify-center w-[100%]">
+      <div className="flex items-center justify-center mt-2 w-[100%]">
         <TransitionLink href="/projects">
           <StylishButton />
         </TransitionLink>

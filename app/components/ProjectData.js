@@ -153,6 +153,80 @@ export const links = [
   },
 ];
 
+export const skills = [
+  {
+    id: 0,
+    alt: "html",
+    img: "/assets/html.png",
+  },
+  {
+    id: 1,
+    alt: "css",
+    img: "/assets/css.png",
+  },
+  {
+    id: 2,
+    alt: "javascript",
+    img: "/assets/javascript.png",
+  },
+  {
+    id: 3,
+    alt: "typescript",
+    img: "/assets/typescript.png",
+  },
+  {
+    id: 4,
+    alt: "react",
+    img: "/assets/react.png",
+  },
+  {
+    id: 5,
+    alt: "nextjs",
+    img: "/assets/next.webp",
+  },
+  {
+    id: 6,
+    alt: "tailwind",
+    img: "/assets/tailwind.svg",
+  },
+  {
+    id: 7,
+    alt: "mongodb",
+    img: "/assets/mongodb.png",
+  },
+  {
+    id: 8,
+    alt: "firebase",
+    img: "/assets/firebase.png",
+  },
+  {
+    id: 9,
+    alt: "figma",
+    img: "/assets/figma.png",
+  },
+
+  {
+    id: 10,
+    alt: "wordpress",
+    img: "/assets/wordpress.png",
+  },
+  {
+    id: 11,
+    alt: "elementor",
+    img: "/assets/elementor.png",
+  },
+  {
+    id: 12,
+    alt: "gsap",
+    img: "/assets/gsap.jpg",
+  },
+  {
+    id: 12,
+    alt: "shopify",
+    img: "/assets/shopify.png",
+  },
+];
+
 export const navLinks = [
   {
     text: "Home",

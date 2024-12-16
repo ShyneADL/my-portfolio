@@ -1,5 +1,6 @@
 import React from "react";
 import { Navbar, Hero, About, Projects, Footer } from "@/app/containers";
+import Skills from "./containers/Skills";
 
 const Home = () => {
   return (
@@ -21,10 +22,11 @@ const Home = () => {
         <About />
       </section>
 
-      <section
-        role="article"
-        className="bg-dullPry xl:px-[180px] md:px-[60px] px-[16px] py-[40px] md:py-[110px]"
-      >
+      <section role="article" className="bg-dullPry w-full">
+        <Skills />
+      </section>
+
+      <section role="article" className="bg-dullPry w-full">
         <Projects />
       </section>
 
