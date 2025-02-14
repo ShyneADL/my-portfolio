@@ -27,7 +27,7 @@ const Footer = () => {
 
       if (response.ok) {
         setSubmitMessage("Thanks for your message! I'll get back to you soon.");
-        form.reset(); // Clear the form
+        form.reset();
       } else {
         setSubmitMessage(
           "Oops! There was a problem sending your message. Please try again."
@@ -88,7 +88,6 @@ const Footer = () => {
             disabled={isSubmitting}
           />
 
-          {/* Hidden input for FormSubmit.co configuration */}
           <input
             type="hidden"
             name="_subject"
@@ -96,12 +95,22 @@ const Footer = () => {
           />
         </form>
       </div>
-
-      {/* Rest of the component remains the same */}
       <div className="w-[100%] flex flex-1 flex-col justify-center items-center lg:mt-36 mt-16">
         <p className="text-white text-[18px] lg:text-[28px] font-medium text-center ">
           Thanks for visiting!
         </p>
+        {/* <div className="iframely-embed">
+          <div
+            className="iframely-responsive"
+            style={{ height: 140, paddingBottom: 0 }}
+          >
+            <a
+              href="https://contra.com/benedict_aladi_e1qd524l"
+              data-iframely-url="//iframely.net/BOxnHdV?card=small"
+            ></a>
+          </div>
+        </div> */}
+        <script async src="//iframely.net/embed.js"></script>
         <div className="flex justify-center align-center w-full mt-[30px]">
           <div className="flex flex-1 w-fit gap-5 items-center justify-center">
             {links.map((item) => (
