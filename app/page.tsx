@@ -12,38 +12,63 @@ import {
 const Home = () => {
   return (
     <div className="w-full scroll_snap overflow-hidden">
-      <div className="flex flex-col items-start justify-around w-full h-[100vh]">
-        <section role="navigation" className="w-full">
-          <Navbar />
-        </section>
+      {/* Hero Section */}
+      <div className="w-full">
+        <div className="flex flex-col items-center justify-center max-w-[1440px] mx-auto h-[100vh]">
+          <div className="w-full">
+            <div className="max-w-[1440px] mx-auto">
+              <section
+                role="navigation"
+                className="flex flex-col items-center justify-center w-full"
+              >
+                <Navbar />
+              </section>
+            </div>
+          </div>
 
-        <section
-          role="main"
-          className="xl:px-[180px] md:px-[60px] px-[16px] w-full"
-        >
-          <Hero />
-        </section>
+          <section
+            role="main"
+            className="xl:px-[180px] md:px-[60px] px-[16px] w-full"
+          >
+            <Hero />
+          </section>
+        </div>
       </div>
 
-      <section role="article" className="bg-dullPry w-full">
-        <About />
-      </section>
+      {/* About Section */}
+      <div className="bg-dullPry w-full">
+        <div className="max-w-[1440px] mx-auto">
+          <About />
+        </div>
+      </div>
 
-      <section role="article" className="bg-dullPry w-full">
-        <Skills />
-      </section>
+      {/* Skills Section */}
+      <div className="bg-dullPry w-full">
+        <div className="max-w-[1440px] mx-auto">
+          <Skills />
+        </div>
+      </div>
 
-      <section role="article" className="bg-dullPry w-full">
-        <Projects />
-      </section>
+      {/* Projects Section */}
+      <div className="bg-dullPry w-full">
+        <div className="max-w-[1440px] mx-auto">
+          <Projects />
+        </div>
+      </div>
 
-      <section role="article" className="bg-dullPry w-full">
-        <Services />
-      </section>
+      {/* Services Section */}
+      <div className="bg-dullPry w-full">
+        <div className="max-w-[1440px] mx-auto">
+          <Services />
+        </div>
+      </div>
 
-      <section role="footer" className="w-full">
-        <Footer />
-      </section>
+      {/* Footer Section */}
+      <div className="w-full">
+        <div className="max-w-[1440px] mx-auto">
+          <Footer />
+        </div>
+      </div>
     </div>
   );
 };

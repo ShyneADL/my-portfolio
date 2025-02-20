@@ -13,17 +13,14 @@ gsap.registerPlugin(ScrollTrigger);
 const Hero = () => {
   const heroRef = useRef<HTMLDivElement>(null);
   useGSAP(() => {
-    gsap.fromTo(
-      heroRef.current,
-      {
-        xPercent: 100,
-      },
-      {
-        xPercent: 0,
-        duration: 1,
-        ease: "none",
-      }
-    );
+    gsap.set(heroRef.current, { xPercent: 100, opacity: 0 });
+
+    gsap.to(heroRef.current, {
+      xPercent: 0,
+      opacity: 1,
+      duration: 1,
+      ease: "none",
+    });
   }, []);
 
   const [text] = useTypewriter({
@@ -49,7 +46,11 @@ const Hero = () => {
   };
 
   return (
-    <div ref={heroRef} id="home">
+    <div
+      ref={heroRef}
+      id="home"
+      className="flex flex-col items-center justify-center max-w-[1440px]"
+    >
       <div className="flex flex-1 md:flex-row flex-col justify-between md:items-start items-center z-0 md:w-full">
         <div className="md:min-w-[250px]">
           <p className="xl:text-[24px] text-white md:text-left text-center">
