@@ -27,6 +27,14 @@ export const projectData = [
     text: "WealthWise is a comprehensive stocks investment app crafted using React and Tailwind. This app empowers users to make informed investment decisions by providing real-time data and insights about stocks listed on the NSE.",
   },
   {
+    img: "/assets/motorsportmind.png",
+    alt: "MotorSportMind",
+    heading: "MotorSportMind",
+    demo: "https://motorsportmind.com/",
+    tech: "WordPress, Elementor, Yoast SEO",
+    text: "Built this webiste for a client who wanted a platform where motorsport racers can book calls with a professional mind coach to help them improve their mental game.",
+  },
+  {
     img: "/assets/manage.jpeg",
     alt: "Manage",
     heading: "Manage Landing Page",
@@ -109,6 +117,14 @@ export const featuredProjects = [
     ghub: "https://github.com/ShyneADL/recipe-app",
     tech: "NextJS, TypeScript, Tailwind, ShadcnUI, LocalStorage",
     text: "KetoHub is a recipe web app where users can search over a catalogue of 400+ high quality ketogenic recipes.",
+  },
+  {
+    img: "/assets/motorsportmind.png",
+    alt: "MotorSportMind",
+    heading: "MotorSportMind",
+    demo: "https://motorsportmind.com/",
+    tech: "WordPress, Elementor, Yoast SEO",
+    text: "Built this webiste for a client who wanted a platform where motorsport racers can book calls with a professional mind coach to help them improve their mental game.",
   },
   {
     img: "/assets/NFTcube.png",
