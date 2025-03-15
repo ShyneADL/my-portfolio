@@ -18,7 +18,7 @@ export const projectData = [
     text: "NFTcube is a captivating and enticing landing page for an NFTs, crafted using React. The page serves as a gateway to introduce users to the world of NFTs, highlighting their significance and impact for both creators and collectors.",
   },
   {
-    img: "/assets/meowfi.png",
+    img: "/assets/meowfi.PNG",
     alt: "Meowfi",
     heading: "Meowfi",
     demo: "https://meowfi-ten.vercel.app/",
@@ -136,7 +136,7 @@ export const featuredProjects = [
     text: "Built this webiste for a client who wanted a platform where motorsport racers can book calls with a professional mind coach to help them improve their mental game.",
   },
   {
-    img: "/assets/meowfi.png",
+    img: "/assets/meowfi.PNG",
     alt: "Meowfi",
     heading: "Meowfi",
     demo: "https://meowfi-ten.vercel.app/",
