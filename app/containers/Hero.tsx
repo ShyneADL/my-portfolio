@@ -30,14 +30,10 @@ const Hero = () => {
   });
 
   const handleDownload = () => {
-    // Specify the path to your PDF file in the assets folder
     const pdfPath = "/assets/Resume.pdf";
-
-    // Use fetch to get the PDF file
     fetch(pdfPath)
       .then((response) => response.blob())
       .then((blob) => {
-        // Use the saveAs function to trigger the download
         saveAs(blob, "Ifeanyi's Resume.pdf");
       })
       .catch((error) => {
