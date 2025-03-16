@@ -51,7 +51,7 @@ const Navbar = () => {
           </ul>
 
           {/* Mobile Nav */}
-          <div className="sm:hidden p-4 flex flex-1 justify-center items-center">
+          <div className="sm:hidden p-4 flex flex-1 justify-end items-center">
             <img
               src={toggle ? "/assets/close.svg" : "/assets/menu.svg"}
               alt="menu"
