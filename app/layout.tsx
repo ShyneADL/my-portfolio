@@ -14,7 +14,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body>
-        <Loader>{children}</Loader> {/* Wrap children in Loader */}
+        <Loader>{children}</Loader>
       </body>
     </html>
   );
