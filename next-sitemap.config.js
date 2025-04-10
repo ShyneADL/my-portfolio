@@ -1,6 +1,6 @@
 /** @type {import('next-sitemap').IConfig} */
 module.exports = {
-  siteUrl: process.env.SITE_URL || "https://ifeanyi-aladi.vercel.app",
+  siteUrl: "https://ifeanyi-aladi.vercel.app",
   generateRobotsTxt: false, // We've already created a custom robots.txt
   changefreq: "weekly",
   priority: 0.7,
