@@ -4,6 +4,7 @@ import React from "react";
 import Loader from "@/app/components/Loader";
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://ifeanyi-aladi.vercel.app/"),
   title: "Ifeanyi Aladi - Web Designer & Developer",
   description:
     "Professional portfolio of Ifeanyi Aladi, showcasing web development projects, software engineering expertise, and technical skills.",

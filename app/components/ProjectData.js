@@ -9,15 +9,6 @@ export const projectData = [
     text: "KetoHub is a recipe web app where users can search over a catalogue of 400+ high quality ketogenic recipes.",
   },
   {
-    img: "/assets/NFTcube.png",
-    alt: "NFTcube",
-    heading: "NFTcube",
-    demo: "https://nft-cube-website.vercel.app/",
-    ghub: "https://github.com/ShyneADL/NFTcube-Website",
-    tech: "React, Tailwind, GSAP",
-    text: "NFTcube is a captivating and enticing landing page for an NFTs, crafted using React. The page serves as a gateway to introduce users to the world of NFTs, highlighting their significance and impact for both creators and collectors.",
-  },
-  {
     img: "/assets/meowfi.PNG",
     alt: "Meowfi",
     heading: "Meowfi",
@@ -44,6 +35,22 @@ export const projectData = [
     text: "Built this webiste for a client who wanted a platform where motorsport racers can book calls with a professional mind coach to help them improve their mental game.",
   },
   {
+    img: "/assets/tradely.webp",
+    alt: "Tradely",
+    heading: "Tradely",
+    demo: "https://benedicts-cool-site-fad869.webflow.io",
+    tech: "Webflow",
+    text: "Built this SaaS landing page using Webflow for a demo from a design.",
+  },
+  {
+    img: "/assets/Yemar.jpg",
+    alt: "Yemar",
+    heading: "Ye-mar",
+    demo: "https://ye-mar.com/",
+    tech: "Shopify",
+    text: "Created a visually captivating Shopify website, Ye-mar, for a modern swimwear store. The site features an immersive shopping experience, showcasing a diverse range of swimwear products for both young and middle-aged women.",
+  },
+  {
     img: "/assets/manage.jpeg",
     alt: "Manage",
     heading: "Manage Landing Page",
@@ -53,13 +60,13 @@ export const projectData = [
     text: "Took on this challenge from FrontendMentor.io to create a visually stunning and responsive landing page while implementing modern coding practices for writing good code and presentation.",
   },
   {
-    img: "/assets/todo.jpeg",
-    alt: "Todo App",
-    heading: "Todo",
-    demo: "https://todo-app-shyneadl.vercel.app/",
-    ghub: "https://github.com/ShyneADL/todo-app",
-    tech: "React, Tailwind, LocalStorage",
-    text: "This project was my first test with local storage and working with date and arrays in jsx. Implemented a theme switcher to practice context handling across an application.",
+    img: "/assets/NFTcube.png",
+    alt: "NFTcube",
+    heading: "NFTcube",
+    demo: "https://nft-cube-website.vercel.app/",
+    ghub: "https://github.com/ShyneADL/NFTcube-Website",
+    tech: "React, Tailwind, GSAP",
+    text: "NFTcube is a captivating and enticing landing page for an NFTs, crafted using React. The page serves as a gateway to introduce users to the world of NFTs, highlighting their significance and impact for both creators and collectors.",
   },
   {
     img: "/assets/walletry.jpeg",
@@ -89,6 +96,15 @@ export const projectData = [
     text: "This landing page was a challenge taken from Frontendmentor.io where I put my flexbox and grid skills into practice.",
   },
   {
+    img: "/assets/todo.jpeg",
+    alt: "Todo App",
+    heading: "Todo",
+    demo: "https://todo-app-shyneadl.vercel.app/",
+    ghub: "https://github.com/ShyneADL/todo-app",
+    tech: "React, Tailwind, LocalStorage",
+    text: "This project was my first test with local storage and working with date and arrays in jsx. Implemented a theme switcher to practice context handling across an application.",
+  },
+  {
     img: "/assets/sneakers.jpeg",
     alt: "Sneakers Product Page",
     heading: "Sneakers Product Page",
@@ -96,24 +112,6 @@ export const projectData = [
     ghub: "https://github.com/ShyneADL/sneakers-product-page",
     tech: "React, Tailwind",
     text: "This challenge was taken from frontendmentor where I made to create a modern product page with features such as cart states, modals, image loading and carousels on mobile.",
-  },
-
-  {
-    img: "/assets/Yemar.jpg",
-    alt: "Yemar",
-    heading: "Ye-mar",
-    demo: "https://ye-mar.com/",
-    tech: "Shopify",
-    text: "Created a visually captivating Shopify website, Ye-mar, for a modern swimwear store. The site features an immersive shopping experience, showcasing a diverse range of swimwear products for both young and middle-aged women.",
-  },
-  {
-    img: "/assets/portfolio.jpeg",
-    alt: "Portfolio",
-    heading: "Portfolio",
-    demo: "https://ifeanyi-aladi.vercel.app/",
-    ghub: "https://github.com/ShyneADL/my-portfolio",
-    tech: "NextJS, Tailwind, TypeScript, Framer-Motion, GSAP",
-    text: "This portfolio website is the culmination of all I've learned in web dev so far, I often update it with new features and improved code.",
   },
 ];
 
@@ -191,32 +189,37 @@ export const skills = [
   {
     id: 0,
     alt: "html",
-    img: "/assets/html.png",
+    img: "/assets/html.svg",
   },
   {
     id: 1,
     alt: "css",
-    img: "/assets/css.png",
+    img: "/assets/css.svg",
   },
   {
     id: 2,
     alt: "javascript",
-    img: "/assets/javascript.png",
+    img: "/assets/javascript.svg",
   },
   {
     id: 3,
     alt: "typescript",
-    img: "/assets/typescript.png",
+    img: "/assets/typescript.svg",
   },
   {
     id: 4,
     alt: "react",
-    img: "/assets/react.png",
+    img: "/assets/react.svg",
+  },
+  {
+    id: 4,
+    alt: "react-native",
+    img: "/assets/react-native.svg",
   },
   {
     id: 5,
     alt: "nextjs",
-    img: "/assets/next.webp",
+    img: "/assets/next.svg",
   },
   {
     id: 6,
@@ -226,38 +229,38 @@ export const skills = [
   {
     id: 7,
     alt: "mongodb",
-    img: "/assets/mongodb.png",
+    img: "/assets/mongodb.svg",
   },
   {
     id: 8,
     alt: "firebase",
-    img: "/assets/firebase.png",
+    img: "/assets/firebase.svg",
   },
   {
     id: 9,
     alt: "figma",
-    img: "/assets/figma.png",
+    img: "/assets/figma.svg",
   },
 
   {
     id: 10,
     alt: "wordpress",
-    img: "/assets/wordpress.png",
+    img: "/assets/wordpress.svg",
   },
   {
     id: 11,
-    alt: "elementor",
-    img: "/assets/elementor.png",
+    alt: "webflow",
+    img: "/assets/webflow.svg",
   },
   {
     id: 12,
     alt: "gsap",
-    img: "/assets/gsap.png",
+    img: "/assets/gsap.svg",
   },
   {
-    id: 12,
+    id: 13,
     alt: "shopify",
-    img: "/assets/shopify.png",
+    img: "/assets/shopify.svg",
   },
 ];
 

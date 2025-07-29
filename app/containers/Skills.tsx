@@ -28,6 +28,7 @@ const Skills = () => {
               height={80}
               className="object-contain max-w-[120px] max-h-[120px] min-w-[50px] min-h-[50px] w-full h-full"
             />
+            // <div key={item.id} className="p-3 rounded-[12px] border-1"></div>
           ))}
         </div>
       </div>
