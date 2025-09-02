@@ -24,13 +24,13 @@ const Hero = () => {
   }, []);
 
   const [text] = useTypewriter({
-    words: ["Frontend Developer", "Wordpress Developer", "UX Specialist"],
+    words: ["Full Stack Engineer", "Mobile Developer", "HIM"],
     loop: true,
     deleteSpeed: 1.5,
   });
 
   const handleDownload = () => {
-    const pdfPath = "/assets/Resume.pdf";
+    const pdfPath = "/assets/Benedict_Aladi_Resume.pdf";
     fetch(pdfPath)
       .then((response) => response.blob())
       .then((blob) => {
