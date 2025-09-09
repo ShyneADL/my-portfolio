@@ -1,5 +1,14 @@
 export const projectData = [
   {
+    img: "/assets/astra.webp",
+    alt: "Astra WebApp",
+    heading: "Astra Web App",
+    demo: "https://astra-smoky.vercel.app/",
+    ghub: "https://github.com/ShyneADL/astra",
+    tech: "React(Vite), TypeScript, TailwindCSS, ShadcnUI, Tanstack Query, Context API, Supabase, Gemini, ElevenLabs",
+    text: "Astra is an empathetic AI therapist chat app. It features a React/Vite frontend with streaming chat, an Express backend integrated with Google Gemini 2.5 Flash, and Supabase authentication with conversation storage and syncing.",
+  },
+  {
     img: "/assets/KetoHub.png",
     alt: "KetoHub App",
     heading: "KetoHub Web App",
@@ -117,6 +126,15 @@ export const projectData = [
 
 export const featuredProjects = [
   {
+    img: "/assets/astra.webp",
+    alt: "Astra WebApp",
+    heading: "Astra Web App",
+    demo: "https://astra-smoky.vercel.app/",
+    ghub: "https://github.com/ShyneADL/astra",
+    tech: "React(Vite), TypeScript, TailwindCSS, ShadcnUI, Tanstack Query, Context API, Supabase, Gemini, ElevenLabs",
+    text: "Astra is an empathetic AI therapist chat app. It features a React/Vite frontend with streaming chat, an Express backend integrated with Google Gemini 2.5 Flash, and Supabase authentication with conversation storage and syncing.",
+  },
+  {
     img: "/assets/KetoHub.png",
     alt: "KetoHub App",
     heading: "KetoHub Web App",
@@ -126,14 +144,6 @@ export const featuredProjects = [
     text: "KetoHub is a recipe web app where users can search over a catalogue of 400+ high quality ketogenic recipes.",
   },
   {
-    img: "/assets/motorsportmind.png",
-    alt: "MotorSportMind",
-    heading: "MotorSportMind",
-    demo: "https://motorsportmind.com/",
-    tech: "WordPress, Elementor, Yoast SEO",
-    text: "Built this webiste for a client who wanted a platform where motorsport racers can book calls with a professional mind coach to help them improve their mental game.",
-  },
-  {
     img: "/assets/meowfi.PNG",
     alt: "Meowfi",
     heading: "Meowfi",
@@ -141,26 +151,6 @@ export const featuredProjects = [
     ghub: "https://github.com/ShyneADL/meowfi",
     tech: "React, TypeScript, TailwindCSS, Solidity, Foundry",
     text: "A memecoin website with an integrated DEX enabling users to swap Sepolia ETH for the token.",
-  },
-  {
-    img: "/assets/NFTcube.png",
-    alt: "NFTcube",
-    heading: "NFTcube",
-    demo: "https://nft-cube-website.vercel.app/",
-    ghub: "https://github.com/ShyneADL/NFTcube-Website",
-    title: "NFT Marketplace Landing Page",
-    tech: "React, Tailwind, GSAP",
-    text: "NFTcube is a captivating and enticing landing page for an NFTs, crafted using React. The page serves as a gateway to introduce users to the world of NFTs, highlighting their significance and impact for both creators and collectors.",
-  },
-  {
-    img: "/assets/ww.png",
-    alt: "wealthwise",
-    heading: "WealthWise",
-    demo: "https://wealthwise-gold.vercel.app/",
-    ghub: "https://github.com/ShyneADL/wealthwise",
-    title: "NASDAQ Stocks app",
-    tech: "React, Tailwind, API",
-    text: "WealthWise is a comprehensive stocks investment app crafted using React and Tailwind. This app empowers users to make informed investment decisions by providing real-time data and insights about stocks listed on the NSE.",
   },
 ];
 
